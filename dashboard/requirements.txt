@@ -1,8 +1,0 @@
-# 대시보드 실행 의존성 (분석 파이프라인과 별개)
-#   pip install -r dashboard/requirements.txt
-#   streamlit run dashboard/app.py
-streamlit==1.64.0
-pydeck==0.9.3
-plotly==7.1.0
-pandas==2.3.3
-numpy==2.2.6

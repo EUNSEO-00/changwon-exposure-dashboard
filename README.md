@@ -15,7 +15,14 @@
 
 ---
 
-## 실행
+## 대시보드
+
+**https://changwon-exposure.streamlit.app**
+
+> 접속 시 대기 화면이 보이면 **"Yes, get this app back up!"** 버튼을 눌러 주세요 (1~2분 소요).
+> Streamlit Community Cloud는 12시간 동안 접속이 없으면 앱을 휴면 상태로 전환합니다.
+
+## 로컬 실행
 
 ```bash
 pip install -r requirements.txt
