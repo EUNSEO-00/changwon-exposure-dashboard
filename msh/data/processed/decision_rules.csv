@@ -1,0 +1,13 @@
+﻿rule_id,applies_to,condition,action,action_category,rationale
+R-SH-very_close,stable_high,노출 프로필 = very_close,최근접 배출원 위치 현장 확인,현장 확인,거리가 매우 짧아 좌표 오차의 영향이 크다. 실제 이격거리부터 확인한다.
+R-SH-air_dominant,stable_high,노출 프로필 = air_dominant,대기배출 사업장 배출 자료 확인,자료 보완,주변 배출원이 대기배출업소에 쏠려 있다. 종별·배출량 실자료가 필요하다.
+R-SH-multi_source_type,stable_high,노출 프로필 = multi_source_type,복합 배출 영향 현장 측정 검토,실측 보완,대기·폐기물·소각이 함께 있어 단일 자료로 판단하기 어렵다.
+R-SH-dense_cluster,stable_high,노출 프로필 = dense_cluster,권역 단위 배출원 관리 검토,권역 관리,개별 사업장보다 밀집 자체가 노출을 만든다. 시설 단독 점검으로는 부족하다.
+R-SH-broad_moderate,stable_high,노출 프로필 = broad_moderate,정기 모니터링 유지,정기 모니터링,특정 요인이 두드러지지 않는다. 현 상태 관찰을 유지한다.
+R-SE-distance,sensitive,민감도 지배축 = distance,시설·배출원 좌표 현장 확인,현장 확인,거리 가정을 바꾸면 분류가 흔들린다. 좌표 정밀도가 결론을 좌우한다.
+R-SE-air,sensitive,민감도 지배축 = air,대기배출 등급·배출량 실자료 확인,자료 보완,대기 가중치 가정에 민감하다. 실제 배출 규모 자료가 필요하다.
+R-SE-waste,sensitive,민감도 지배축 = waste,폐기물 종류·처리방식 확인,자료 보완,폐기물 가중치 가정에 민감하다. 품목과 처리방식을 확인해야 한다.
+R-SE-no_axis_variation,sensitive,민감도 지배축 = no_axis_variation,분류 경계 인접 — 재검토 대상,정기 모니터링,특정 축이 아니라 전반적으로 경계에 걸쳐 있다.
+R-OT-default,other,반복 상위 노출군 미포함,정기 모니터링 유지,정기 모니터링,추가 확인 사유 없음
+C1-station_gap,"stable_high, sensitive",최근접 측정소 > 2.0km,이동식 측정 우선 검토,실측 보완,해당 지점의 농도가 관측된 적이 없다. 실측 공백을 메운다.
+C2-odor_complaint,stable_high,행정동 악취 민원 ≥ 1,현장 환경점검 검토,현장 확인,주민 신고가 있어 확인 근거가 추가된다. 민원 0건은 안전을 뜻하지 않으므로 행동을 빼는 데는 쓰지 않는다.

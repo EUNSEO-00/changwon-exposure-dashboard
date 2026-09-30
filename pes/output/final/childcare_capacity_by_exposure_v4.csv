@@ -1,0 +1,4 @@
+﻿exposure_stability_class,childcare_count,capacity_sum,capacity_mean,capacity_median,capacity_min,capacity_max,capacity_basis,excluded_facility_types
+scenario_stable_high_exposure,29,1501,51.8,49.0,14,99,어린이집 인가 정원. 실제 재원 인원·실제 노출 인원이 아님,경로당·지역아동센터·장애인복지관은 동일 인원 자료가 없어 제외(합산하지 않음)
+scenario_sensitive,61,2950,48.4,39.0,13,130,어린이집 인가 정원. 실제 재원 인원·실제 노출 인원이 아님,경로당·지역아동센터·장애인복지관은 동일 인원 자료가 없어 제외(합산하지 않음)
+scenario_stable_non_high,433,19931,46.0,34.0,10,300,어린이집 인가 정원. 실제 재원 인원·실제 노출 인원이 아님,경로당·지역아동센터·장애인복지관은 동일 인원 자료가 없어 제외(합산하지 않음)
